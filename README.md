@@ -1,3 +1,1 @@
-# Hello Kamatchi!
-
-WOW! This is my first web page
+# Hello World!
