@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamalesh Loganathan | CFD Engineer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 2rem 0; text-align: center; }
+        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+        section { padding: 3rem 0; }
+        h2 { color: #1e3c72; border-bottom: 3px solid #2a5298; padding-bottom: 0.5rem; margin-bottom: 2rem; font-size: 1.8rem; }
+        .skills-grid, .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .skill, .project { background: #f8f9fa; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .skill h3, .project h3 { color: #1e3c72; margin-bottom: 0.5rem; }
+        .project p { margin-bottom: 1rem; }
+        .btn { display: inline-block; background: #2a5298; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 5px; transition: background 0.3s; }
+        .btn:hover { background: #1e3c72; }
+        footer { background: #333; color: white; text-align: center; padding: 2rem 0; }
+        @media (max-width: 768px) { header h1 { font-size: 2rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kamalesh Loganathan</h1>
+            <p>CFD Engineer | Turbulence Modeling | Multiphase Flow | Combustion Simulation</p>
+            <a href="kamalesh_loganathan.pdf" class="btn" download>Download Resume</a>
+        </div>
+    </header>
 
+    <section id="skills" class="container">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <h3>CFD Solvers</h3>
+                <p>ANSYS Fluent, CFX, OpenFOAM, STAR-CCM+, FDS</p>
+            </div>
+            <div class="skill">
+                <h3>Multiphase Modeling</h3>
+                <p>Euler-Euler, Euler-Lagrange, Population Balance, Cavitation</p>
+            </div>
+            <div class="skill">
+                <h3>Combustion & Reactive Flow</h3>
+                <p>Non-premixed/Premixed Combustion, NOx Modeling, Species Transport</p>
+            </div>
+            <div class="skill">
+                <h3>Automation & Programming</h3>
+                <p>Python (Ansys Workbench), C/C++, MATLAB, Bash, Git, Docker</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="container" style="background: #f8f9fa;">
+        <h2>Professional Experience</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <h3>CFD Engineer<br><small>May 2024 – Present</small></h3>
+                <p><strong>Danieli Corus India Pvt. Ltd., Noida</strong><br>
+                • Developed non-premixed coal particle combustion model for PCI systems<br>
+                • Implemented Euler-Euler multiphase modeling for hot metal ladle slurry systems<br>
+                • Automated CFD workflows using Python scripting in Ansys Workbench<br>
+                • Conducted conjugate heat transfer analysis for industrial valves</p>
+            </div>
+            <div class="skill">
+                <h3>Teaching Fellow<br><small>Jul 2018 – Jul 2020</small></h3>
+                <p><strong>Center for BioTechnology, Anna University</strong><br>
+                Taught core process engineering subjects: Fluid Mechanics, Heat Transfer, Unit Operations</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Key Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <h3>Non-premixed Combustion Model (2025)</h3>
+                <p>CFD simulation of hot blast stove burners using Ansys Fluent. Improved thermal efficiency and reduced emissions through design optimization.</p>
+            </div>
+            <div class="project">
+                <h3>PCI Particle Combustion (2024)</h3>
+                <p>Validated CFD model for pulverized coal injection in blast furnace tuyeres. Predicted temperature profiles and burnout efficiency.</p>
+            </div>
+            <div class="project">
+                <h3>Multiphase Flow Optimization</h3>
+                <p>Two-phase Euler-Euler analysis for slag distribution system in hot metal ladle. Parametric studies for process optimization.</p>
+            </div>
+            <div class="project">
+                <h3>Conjugate Heat Transfer Analysis</h3>
+                <p>Designed hot blast valves using coupled solid-fluid simulations for thermal and flow efficiency.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="container" style="background: #f8f9fa;">
+        <h2>Education</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+            <div>
+                <h3>M.S. Computer Simulation in Science (CFD)</h3>
+                <p><strong>Bergische Universität Wuppertal, Germany</strong> | 2020-2024<br>
+                Thesis: Droplet Dynamics on Vibrating Fibers using OpenFOAM</p>
+            </div>
+            <div>
+                <h3>M.Tech. Chemical Engineering</h3>
+                <p><strong>Anna University, Chennai</strong> | 2015-2017<br>
+                Thesis: Lean NOx Trap Modeling in Ansys Fluent</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <p>&copy; 2026 Kamalesh Loganathan | <a href="mailto:kamalesh.loganathan@protonmail.com" style="color: #2a5298;">kamalesh.loganathan@protonmail.com</a> | +91 98401 30520</p>
+        <p><a href="https://github.com/kamaleshloganathan" style="color: #2a5298;">GitHub</a> | <a href="https://linkedin.com/in/kamaleshloganathan" style="color: #2a5298;">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
